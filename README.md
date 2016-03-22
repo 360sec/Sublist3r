@@ -15,6 +15,12 @@ Sublist3r is python tool that is designed to enumerate subdomains of websites us
 git clone https://github.com/aboul3la/Sublist3r.git
 ```
 
+##Recommended Python Version:
+
+The recommended python version to use is 2.7.x on any platform.
+
+Other python versions maybe not **supported** at the moment.
+
 ##Dependencies:
 
 ####Requests library (http://docs.python-requests.org/en/latest/)
@@ -43,9 +49,25 @@ sudo apt-get install python-dnspython
 
 - Install using pip:
 ```
-pip install dnspython
+sudo pip install dnspython
 ```
 
+####argparse library
+
+- Install for Ubuntu/Debian:
+```
+sudo apt-get install python-argparse
+```
+
+- Install for Centos/Redhat:
+```
+sudo yum install python-argparse
+``` 
+
+- Install using pip:
+```
+sudo pip install argparse
+```
 
 ##Usage
 
